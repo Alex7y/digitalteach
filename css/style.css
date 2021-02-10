@@ -93,3 +93,44 @@
     width: 85vw;
     margin: 0 auto;
 }
+
+.card__title {
+    margin-left: 75px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.telegram__icon {
+    display: block;
+    width: 44px;
+    height: 50px;
+}
+
+.telegram__container {
+    display: block;
+    margin-left: 250px;
+    display: flex;
+    border: 2px solid #61a8de;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #61a8de;
+}
+
+
+.telegram__icon__text {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+}
+.telegram__icon__text:hover {
+    color: #b8d6ec;
+}
