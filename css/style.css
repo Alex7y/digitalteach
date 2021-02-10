@@ -1,24 +1,9 @@
-
 .mainImage{
     background-image: url("../images/278050_1920x600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
 }
-
-.card-title{
-
-    color: white;
-    font-size: 36px;
-    font-weight: 900;
-}
-.card-text{
-
-    color: white;
-    font-size: 22px;
-    font-weight: 900;
-}
-
 
 .mycontent-left {
     border-right: 1px dashed #333;
@@ -72,4 +57,39 @@
     box-shadow: inset 0 0 2000px rgba(241, 241, 241, 0.5);
     filter: blur(2px);
     margin: -20px;
+}
+
+/*Правки*/
+
+.nav__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.btn__ff {
+    font-family: 'Inter', monospace;
+}
+.desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+.card-text{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cardSection {
+    height: 100%;
+}
+.cartSection {
+    width: 85vw;
+    margin: 0 auto;
 }
