@@ -18,6 +18,20 @@
     background-repeat: repeat-x;
     background-size: contain;
 }
+
+.card-1{
+
+}
+.card-2{
+
+}
+.card-3{
+
+}
+.card-4{
+    padding-bottom: 40px !important;
+    background-color: red;
+}
 .row{
     margin: 0 !important;
 }
