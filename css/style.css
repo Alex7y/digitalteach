@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    border-radius: 20px;
+    float: none;
+    margin: 0 auto;
+
 }
 
 .mycontent-left {
@@ -19,19 +23,6 @@
     background-size: contain;
 }
 
-.card-1{
-
-}
-.card-2{
-
-}
-.card-3{
-
-}
-.card-4{
-    padding-bottom: 40px !important;
-    background-color: red;
-}
 .row{
     margin: 0 !important;
 }
@@ -76,10 +67,16 @@ font-size: 18px;
     margin: -20px;
 }
 
+@media screen and (max-width: 900px){
+    .cardSection{
+        margin-bottom: 600px !important;
+    }
+}
 /*Правки*/
 
 .nav__title {
     font-family: 'Inter', sans-serif;
+    font-size: 2vw;
     font-weight: 700;
 }
 
@@ -112,7 +109,7 @@ font-size: 18px;
 }
 
 .card__title {
-    margin-left: 75px;
+    margin-left: 10px;
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
