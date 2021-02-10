@@ -2,7 +2,7 @@
 .mainImage{
     background-image: url("../images/278050_1920x600.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 400px;
 }
 
